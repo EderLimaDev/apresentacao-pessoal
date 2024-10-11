@@ -22,3 +22,11 @@
       font-family: var(--font-title);
     }
   }
+
+  @layer containers {
+    .centered-containers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
