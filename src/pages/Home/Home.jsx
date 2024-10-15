@@ -1,12 +1,14 @@
 import React from 'react'
 import { Hero } from './sections/Hero/Hero'
-import { SocialMedia } from '../../components/SocialMedia/SocialMedia'
+import { About } from './sections/About/About'
+import { Projects } from './sections/Projects/Projects'
 
 export const Home = () => {
   return (
     <>
       <Hero />
-      <SocialMedia />
+      <About />
+      <Projects />
     </>
   )
 }

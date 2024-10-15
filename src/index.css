@@ -14,11 +14,27 @@
     color: var(--foreground);
     background: var(--background);
     font-family: Open-sans;
+  
   }
 
   @layer utilities {
     .main-titles-font {
       font-family: var(--font-title);
+    }
+    .custom-background {
+      width: 100%;
+      height: 80vh;
+      margin-top: 90px;
+      position: relative;
+    
+      background-image: url('/src/assets/images/background-avatar.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+    
+      display: flex;
+      align-items: center;
+     
     }
   }
 
