@@ -5,7 +5,8 @@ import PublicIcon from "@mui/icons-material/Public";
 export const CardProject = ({ name, description, html_url, homepage }) => {
   return (
     <>
-      <Box className="flex flex-col gap-2 bg-green-tone border-2 border-green-100 rounded-xl p-8 md:max-w-md">
+      <Box className="flex flex-col gap-2 bg-green-tone border-2 border-green-100 rounded-xl p-8 md:max-w-md
+      animate-fade-left animate-once animate-duration-1000">
         <h1 className="uppercase tracking-wide text-3xl text-green-tone-200 font-semibold drop-shadow-lg">
           {name}
         </h1>

@@ -20,9 +20,9 @@ export const Hero = () => {
           />
         </Grid2>
 
-        <Grid2 className="centered-containers flex-col gap-6 col-span-2">
+        <Grid2 className="centered-containers flex-col gap-6 col-span-2 animate-fade-down animate-once animate-duration-2000 animate-ease-linear">
           <h1 className="text-6xl text-center main-titles-font font-bold text-green-tone">
-            <span className="font-semibold text-5xl text-green-tone-50">Olá, sou </span>
+            <span className="font-semibold text-5xl text-green-tone-50 ">Olá, sou </span>
             Eder Lima
           </h1>
           <h3 className="text-3xl text-center main-titles-font text-green-tone-200">

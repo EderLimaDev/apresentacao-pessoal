@@ -6,9 +6,9 @@ import { Box } from "@mui/material";
 
 export const SocialMedia = () => {
   return (
-    <Box className="absolute right-3 top-0 h-full flex items-center">
+    <Box className="absolute right-3 top-0 h-full flex items-center z-30">
       <Box className="flex flex-col gap-6">
-        <GitHubIcon
+        <GitHubIcon 
           sx={{ fontSize: 40, cursor: "pointer", "&:hover": { fill: "#25f62f" } }}
         />
         <LinkedInIcon
