@@ -54,7 +54,7 @@ Coloque qualquer informação adicional aqui
 
 ## Screenshot
 
-![App Home Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Home Screenshot](public/Home-page.png)
 
 
 ## Stack utilizada
