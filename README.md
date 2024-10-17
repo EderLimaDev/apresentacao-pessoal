@@ -1,96 +1,68 @@
-# Desafio de Apresentação Pessoal - Processo Seletivo Frontend Fusion - [cargo voluntário]
 
-## Sobre o Desafio
+# Apresentação Pessoal
 
-Bem-vindo ao desafio de apresentação pessoal do processo seletivo do projeto Frontend Fusion para a vaga de Desenvolvedor React Júnior. Este desafio foi criado para avaliar suas habilidades em desenvolvimento com React e sua capacidade de criar uma página de apresentação pessoal.
+Projeto portfolio para apresentação pessoal, com finalidade de participar do desafio para vaga de desenvolvedor React Junior.
 
-> OBS : Você receberá um e-mail com a data de início dos desafios, mas eles já estão disponíveis para acesso imediato. 
-Se ainda não preencheu o formulário, por favor, acesse o link para completá-lo.
-[Forms de inscrição](https://forms.gle/EJKDNKdmVZM3zQTr7)
-é importante está inscrito no formulário , pois o seu email precisa ser validado
 
-## Objetivo
+## Referência
 
-Crie uma página de apresentação pessoal utilizando React com Vite. Esta página deve incluir:
+ - [Fontes - Goolge fonts](https://fonts.google.com/)
+ - [Alguns Icones e componentes - Material UI](https://mui.com/material-ui/)
+ - [Animações - Plugin Tailwind Animated](https://www.tailwindcss-animated.com/)
 
-- Seu nome
-- Uma breve descrição sobre você
-- Suas habilidades
-- Seus projetos recentes
-- Links para suas redes sociais (LinkedIn, GitHub, etc.)
 
-## Diferenciais
+## Documentação da API
 
-Para se destacar, recomendamos implementar os seguintes diferenciais:
+#### Retorna todos os itens
 
-- **Tailwind CSS**: Utilize Tailwind CSS para estilizar sua página.
-- **Gerenciadores de Estado**: Utilize gerenciadores de estado como Redux ou Context API para gerenciar o estado da aplicação.
-- **Responsividade**: Certifique-se de que sua página seja totalmente responsiva e funcione bem em diferentes dispositivos.
-- **Boas Práticas de Código**: Siga boas práticas de código, como organização de arquivos, componentes reutilizáveis e uso adequado de hooks.
-- **Acessibilidade**: Implemente boas práticas de acessibilidade para garantir que sua página possa ser utilizada por todos.
-- **Animações e Transições**: Adicione animações e transições para melhorar a experiência do usuário.
-- **Commits Semânticos**: Utilize commits semânticos para manter um histórico de commits claro e organizado.
+```http
+  https://api.github.com/users/{userName}/repos
+```
 
-## Entrega
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `url` | `string` | Realizar fetch no endpoint, não é necessário autenticação |
 
-Faça o deploy da sua aplicação em plataformas como GitHub Pages, Heroku, Vercel, Netlify, ou qualquer outra de sua preferência. Após concluir o desafio, envie o link do deploy e do repositório do código-fonte por e-mail para **projetofrontendfusion@gmail.com**. O e-mail deve incluir:
 
-- Nome
-- Link do GitHub
-- Link do LinkedIn
-- Data de Início
-- Data de Entrega
-- Link do GitHub com o Código
-- Link do Deploy
 
-**Observação:** É obrigatório entregar os três desafios em até **20 dias** após o início. O desafio atual é a **Parte 01 de 03 desafios**.
 
-## Prazo
+## Apêndice
 
-Você tem 20 dias para concluir todos os três desafios.
+Coloque qualquer informação adicional aqui
 
-## Avaliação
 
-Os critérios de avaliação incluirão:
+## Autores
 
-- Funcionalidade
-- Qualidade do código
-- Uso dos diferenciais mencionados
-- Estética e design
-- Responsividade
-- Acessibilidade
+- [Eder Lima](https://www.github.com/EderLimaDev)
 
-## Como Participar
+## Documentação de cores
 
-1. Faça um fork deste repositório.
-2. Desenvolva sua solução no seu repositório forkado.
-3. Após completar o desafio, envie o link do deploy e do repositório através do e-mail para **projetofrontendfusion@gmail.com** com o assunto: **"Entrega + Desafios[01] + Seu Nome"**.
+| Cor tom Verde              | Hexadecimal                                                |
+| ----------------- | ---------------------------------------------------------------- |
+| 50       | ![#e7ffe5](https://via.placeholder.com/10/e7ffe5?text=+) #e7ffe5 |
+| 100      | ![#c8ffc7](https://via.placeholder.com/10/c8ffc7?text=+) #c8ffc7 |
+| 200       | ![#95ff95](https://via.placeholder.com/10/95ff95?text=+) #95ff95 |
+| 300      | ![#3dff44](https://via.placeholder.com/10/3dff44?text=+) #3dff44 |
+| 400       | ![#25f62f](https://via.placeholder.com/10/25f62f?text=+) #25f62f |
+| 500      | ![#05dd14](https://via.placeholder.com/10/05dd14?text=+) #05dd14 |
+| DEFAULT       | ![#00b110](https://via.placeholder.com/10/00b110?text=+) #00b110 |
+| 700      | ![#058612](https://via.placeholder.com/10/058612?text=+) #058612 |
+| 800      | ![#0b6915](https://via.placeholder.com/10/0b6915?text=+) #0b6915 |
+|900      | ![#0e5918](https://via.placeholder.com/10/0e5918?text=+) #0e5918 |
+| 950     | ![#013209](https://via.placeholder.com/10/013209?text=+) #013209 
 
-## Exemplo de E-mail:
 
-**Assunto:** Entrega + Desafios[01] + João Silva
+## Screenshot
 
----
+![App Home Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-Olá,
 
-Segue abaixo a entrega do Desafio 01 para o processo seletivo do Frontend Fusion.
+## Stack utilizada
 
-**Nome:** João Silva  
-**Link do GitHub:** [https://github.com/joaosilva](https://github.com/joaosilva)  
-**Link do LinkedIn:** [https://linkedin.com/in/joaosilva](https://linkedin.com/in/joaosilva)  
-**Data de Início:** 01/09/2024  
-**Data de Entrega:** 20/09/2024  
-**Link do GitHub com o Código:** [https://github.com/joaosilva/desafio01](https://github.com/joaosilva/desafio01)  
-**Link do Deploy:** [https://joaosilva.netlify.app](https://joaosilva.netlify.app)
+**Front-end:** React, TailwindCSS
 
-Agradeço a oportunidade e estou à disposição para qualquer dúvida.
 
-Atenciosamente,  
-João Silva
+## Licença
 
----
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Boa sorte e estamos ansiosos para ver seu trabalho! 🚀
-
-Este desafio faz parte do processo seletivo do projeto Frontend Fusion para a vaga de Desenvolvedor React Júnior.
